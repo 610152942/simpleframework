@@ -9,5 +9,9 @@ public class StarvingSingleton {
         return starvingSingleton;
     }
 
+    public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        System.out.println(StarvingSingleton.getInstance());
+        System.out.println(StarvingSingleton.getInstance());
+    }
 }
 
